@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--"onload" serve para carregar e executar a função quando carregar a página-->
+
+<body onload="carregar()">
+    <header>
+        <h1
+            style="background-color: rgba(0, 0, 0, 0.900); width: 430px; height: 62px; border-radius: 10px 10px 0px 0px; margin: auto;">
+            Relógio</h1>
+    </header>
+
+    <section>
+        <div id="saudacoes">
+            Aqui vai exibir a saudação de "Bom Dia!", "Boa Tarde!" ou "Boa Noite!"...
+        </div>
+        <div id="msg">
+            Aqui vai aparecer a mensagem...
+        </div>
+        <div id="foto">
+            <img id="imagem" style="border-radius: 50%" width="325" height="325" src="imagens/manha.jpg"
+                alt="Foto do Horário">
+        </div>
+    </section>
+
+    <footer>
+        <!-- Copyright -->
+        <p>&copy; Relógio Virtual Njr</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
