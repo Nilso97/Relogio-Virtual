@@ -1,2 +1,2 @@
-# relogio_virtual
+# Relógio Virtual
 Relógio Virtual feito utilizando HTML, CSS e JavaScript.
